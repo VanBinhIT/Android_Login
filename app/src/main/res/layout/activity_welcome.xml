@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootWelcome103"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light_103"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="32dp">
+
+        <ImageView
+            android:id="@+id/logo103"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/green_primary_103"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/titleWelcome103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textStyle="bold"
+            android:textColor="@color/green_primary_103"
+            android:textSize="28sp"
+            android:layout_marginTop="12dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnCreateAccount103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:backgroundTint="@color/green_primary_103"
+        android:textColor="@color/white_103"/>
+
+    <Button
+        android:id="@+id/btnLogin103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        style="@style/Button.Green.Outlined103"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

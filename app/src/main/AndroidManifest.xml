@@ -1,0 +1,15 @@
+<manifest package="com.example.android_login" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="Android_login"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.Android_login">
+<!--        <activity android:name=".CreateAccountActivity"/>-->
+        <activity android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
