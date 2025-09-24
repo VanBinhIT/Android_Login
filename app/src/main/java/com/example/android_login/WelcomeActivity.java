@@ -17,9 +17,9 @@ public class WelcomeActivity extends AppCompatActivity {
         btnCreateAccount103 = findViewById(R.id.btnCreateAccount103);
         btnLogin103 = findViewById(R.id.btnLogin103);
 
-//        btnCreateAccount103.setOnClickListener(v ->
-//                startActivity(new Intent(this, CreateAccountActivity.class)));
-//        btnLogin103.setOnClickListener(v ->
-//                startActivity(new Intent(this, CreateAccountActivity.class)));
+        btnCreateAccount103.setOnClickListener(v ->
+                startActivity(new Intent(this, CreateAccountActivity.class)));
+        btnLogin103.setOnClickListener(v ->
+                startActivity(new Intent(this, CreateAccountActivity.class)));
        }
 }
