@@ -3,7 +3,7 @@
         android:label="Android_login"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.Android_login">
-<!--        <activity android:name=".CreateAccountActivity"/>-->
+        <activity android:name=".CreateAccountActivity"/>
         <activity android:name=".WelcomeActivity"
             android:exported="true">
             <intent-filter>
