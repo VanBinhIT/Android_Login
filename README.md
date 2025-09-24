@@ -4,6 +4,6 @@
 1. Welcome (Create Account / Login)
 2. Create Account (Full name, Email, Password)
 
-## How to run
+## How to run app
 - Android Studio Ladybug+ (Java)
 - Open project → Run
